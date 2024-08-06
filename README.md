@@ -41,6 +41,9 @@ Code Explanation
 
 Example:
 
+![Screenshot 2024-08-06 192916](https://github.com/user-attachments/assets/75cb1ae6-b377-417d-9196-8b15b8a1ae89)
+
+
 What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.
 1
     _______
@@ -59,6 +62,9 @@ Computer chose:
 ---.__(___)
 
 You lose
+
+
+
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
