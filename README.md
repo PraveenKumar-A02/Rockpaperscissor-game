@@ -26,7 +26,7 @@ This repository contains a simple implementation of the classic **Rock-Paper-Sci
 
    ```bash
    git clone https://github.com/PraveenKumar-A02/Rockpaperscissor-game.git
-   cd rock-paper-scissors
+   cd Rockpaperscissor-game
    ```
 
 2. Compile the program:
