@@ -1,51 +1,75 @@
-Rock, Paper, Scissors Game
-This is a simple implementation of the classic Rock, Paper, Scissors game using Python. The game allows a user to play against the computer and displays the results of the game in a text-based format.
+# Rock-Paper-Scissors Game
 
-Features:
---> Play Rock, Paper, Scissors against the computer.
---> The computer makes a random choice from Rock, Paper, or Scissors.
---> The game displays the user's and computer's choices in ASCII art.
---> The game determines the winner and displays the result.
+This repository contains a simple implementation of the classic **Rock-Paper-Scissors** game in Java. The program allows a user to play the game against the computer in an interactive and fun way.
 
-Game Rules:
- * Rock crushes Scissors.
- * Scissors cuts Paper.
- * Paper covers Rock.
+## Features
 
-Usage
-To play the game:
+- User-friendly console interface.
+- Visual representation of the chosen options (rock, paper, scissors) using ASCII art.
+- Randomized computer choices for fairness.
+- Option to replay the game or exit after each round.
 
- * Clone or download the repository.
- * Run the Python script rock_paper_scissors.py.
+## Gameplay Rules
 
- ----- " python rock_paper_scissors.py " -----
+1. Rock beats Scissors.
+2. Scissors beat Paper.
+3. Paper beats Rock.
+4. If both players choose the same, it’s a draw.
 
-  * Follow the on-screen prompt to choose Rock, Paper, or Scissors by typing 0, 1, or 2 respectively.
+## Requirements
 
-Code Explanation
-1. Importing Libraries
- --> random is used to make a random choice for the computer.
-   
-3. ASCII Art
- --> rock, paper, and scissors are variables containing ASCII art representations of the choices.
-   
-3. User Input
- --> The user is prompted to enter their choice, and input is validated to ensure it's within the allowed range (0 to 2).
-   
-5. Computer Choice
- --> The computer makes a random choice between Rock, Paper, and Scissors.
-   
-5. Result Determination
- --> The script compares the user's choice and the computer's choice to determine the winner and prints the result.
+- Java Development Kit (JDK) 8 or later.
 
+## How to Run
 
-Example:
+1. Clone the repository or download the source code:
 
-![Screenshot 2024-08-06 192916](https://github.com/user-attachments/assets/75cb1ae6-b377-417d-9196-8b15b8a1ae89)
+   ```bash
+   git clone https://github.com/PraveenKumar-A02/Rockpaperscissor-game.git
+   cd rock-paper-scissors
+   ```
 
+2. Compile the program:
 
-What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.
-1
+   ```bash
+   javac RockPaperScissors.java
+   ```
+
+3. Run the program:
+
+   ```bash
+   java RockPaperScissors
+   ```
+
+## Code Overview
+
+The program follows a simple structure:
+
+1. **ASCII Art**: Each choice (rock, paper, scissors) is represented using ASCII art stored in an array.
+2. **User Input**: The program prompts the user to input their choice (0 for Rock, 1 for Paper, 2 for Scissors).
+3. **Computer Choice**: The computer’s choice is randomly generated.
+4. **Game Logic**: The game compares the user’s choice and the computer’s choice to determine the outcome.
+5. **Replay Option**: After each round, the user can choose to play again or exit the game.
+
+## Example
+
+### Input:
+```
+What do you choose? Type 0 for Rock, 1 for Paper, or 2 for Scissors.
+0
+```
+
+### Output:
+```
+You chose:
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+
+Computer chose:
     _______
 ---'   ____)____
           ______)
@@ -53,18 +77,20 @@ What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.
          _______)
 ---.__________)
 
-Computer chose:
-    _______
----'   ____)____
-          ______)
-       __________)
-      (____)
----.__(___)
-
 You lose
 
+Do you want to play again? Type 'yes' to continue or 'no' to exit.
+```
 
+## Contributing
 
+Feel free to contribute to this project by forking the repository, making changes, and submitting a pull request. Suggestions and improvements are always welcome!
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Happy coding and have fun playing the game!
+
